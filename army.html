@@ -1,0 +1,60 @@
+<ons-page>
+  <!-- Toolbar -->
+  <ons-toolbar>
+    <div class="center">Army Management</div>
+  </ons-toolbar>
+
+  <!-- Army Overview -->
+  <ons-card>
+    <div class="title">Your Army</div>
+    <div class="content">
+      <p><strong>Spearmen:</strong> <span id="spearmen">0</span></p>
+      <p><strong>Archers:</strong> <span id="archers">0</span></p>
+      <p><strong>Knights:</strong> <span id="knights">0</span></p>
+    </div>
+  </ons-card>
+
+  <!-- Training Units -->
+  <ons-card>
+    <div class="title">Train Units</div>
+    <div class="content">
+      <ons-list>
+        <ons-list-item>
+          <div class="left">
+            <strong>Spearmen</strong><br>
+            <small>Cost: 10 Gold, 5 Iron, 2 Food</small>
+          </div>
+          <div class="right">
+            <ons-button class="train-spearmen" modifier="quiet">Train</ons-button>
+          </div>
+        </ons-list-item>
+        <ons-list-item>
+          <div class="left">
+            <strong>Archers</strong><br>
+            <small>Cost: 15 Gold, 5 Wood, 3 Food</small>
+          </div>
+          <div class="right">
+            <ons-button class="train-archers" modifier="quiet">Train</ons-button>
+          </div>
+        </ons-list-item>
+        <ons-list-item>
+          <div class="left">
+            <strong>Knights</strong><br>
+            <small>Cost: 30 Gold, 10 Iron, 5 Food</small>
+          </div>
+          <div class="right">
+            <ons-button class="train-knights" modifier="quiet">Train</ons-button>
+          </div>
+        </ons-list-item>
+      </ons-list>
+    </div>
+  </ons-card>
+
+  <!-- Defend Kingdom -->
+  <ons-card>
+    <div class="title">Defense</div>
+    <div class="content">
+      <ons-button id="deploy-army" modifier="large">Deploy Army</ons-button>
+    </div>
+  </ons-card>
+</ons-page>
