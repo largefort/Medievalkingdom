@@ -1,0 +1,102 @@
+<ons-page>
+  <!-- Toolbar -->
+  <ons-toolbar>
+    <div class="center">Kingdom Overview</div>
+  </ons-toolbar>
+
+  <!-- Kingdom Stats -->
+  <ons-card>
+    <div class="title">Kingdom Stats</div>
+    <div class="content">
+      <p><strong>Gold:</strong> <span id="gold">100 Gold, 0 Silver, 0 Bronze</span></p>
+      <p><strong>Food:</strong> <span id="food">500</span></p>
+      <p><strong>Iron:</strong> <span id="iron">100</span></p>
+      <p><strong>Wood:</strong> <span id="wood">100</span></p>
+      <p><strong>Stone:</strong> <span id="stone">100</span></p>
+      <p><strong>Population:</strong> <span id="population">10</span></p>
+      <p><strong>Happiness:</strong> <span id="happiness">50%</span></p>
+    </div>
+  </ons-card>
+
+  <!-- Building Management -->
+  <ons-card>
+    <div class="title">Buildings</div>
+    <div class="content">
+      <ons-list>
+        <ons-list-item>
+          <div class="left">
+            <strong>Farm</strong><br>
+            <small>Produces food</small>
+          </div>
+          <div class="right">
+            <ons-button class="build-farm" modifier="quiet">Build (50 Gold)</ons-button>
+          </div>
+        </ons-list-item>
+        <ons-list-item>
+          <div class="left">
+            <strong>Mine</strong><br>
+            <small>Produces iron</small>
+          </div>
+          <div class="right">
+            <ons-button class="build-mine" modifier="quiet">Build (75 Gold)</ons-button>
+          </div>
+        </ons-list-item>
+        <ons-list-item>
+          <div class="left">
+            <strong>Lumber Mill</strong><br>
+            <small>Produces wood</small>
+          </div>
+          <div class="right">
+            <ons-button class="build-lumbermill" modifier="quiet">Build (60 Gold)</ons-button>
+          </div>
+        </ons-list-item>
+        <ons-list-item>
+          <div class="left">
+            <strong>Quarry</strong><br>
+            <small>Produces stone</small>
+          </div>
+          <div class="right">
+            <ons-button class="build-quarry" modifier="quiet">Build (70 Gold)</ons-button>
+          </div>
+        </ons-list-item>
+        <ons-list-item>
+          <div class="left">
+            <strong>Barracks</strong><br>
+            <small>Trains defense units</small>
+          </div>
+          <div class="right">
+            <ons-button class="build-barracks" modifier="quiet">Build (100 Gold)</ons-button>
+          </div>
+        </ons-list-item>
+      </ons-list>
+    </div>
+  </ons-card>
+
+  <!-- Actions -->
+  <ons-card>
+    <div class="title">Actions</div>
+    <div class="content">
+      <ons-button id="collect-tax" modifier="large">Collect Taxes</ons-button>
+      <ons-button id="defend-kingdom" modifier="large" style="margin-top: 10px;">Defend Kingdom</ons-button>
+    </div>
+  </ons-card>
+
+  <!-- Workers -->
+  <ons-card>
+    <div class="title">Workers</div>
+    <div class="content">
+      <ons-list>
+        <ons-list-item>
+          <div class="left">
+            <strong>Hire Workers</strong><br>
+            <small>Increase resource production</small>
+          </div>
+          <div class="right">
+            <ons-button class="hire-workers" modifier="quiet">Hire (10 Gold)</ons-button>
+          </div>
+        </ons-list-item>
+      </ons-list>
+    </div>
+  </ons-card>
+
+</ons-page>
