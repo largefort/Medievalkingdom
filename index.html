@@ -1,26 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Medieval Kingdom Tycoon</title>
-  <!-- Onsen UI CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/onsenui/css/onsenui.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/onsenui/css/onsen-css-components.css">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.scss">
-</head>
-<body>
-  <!-- Main App -->
-  <ons-tabbar>
-    <ons-tab label="Kingdom" icon="md-home" page="kingdom.html" active></ons-tab>
-    <ons-tab label="Army" icon="md-group" page="army.html"></ons-tab>
-    <ons-tab label="Resources" icon="md-crop-din" page="resources.html"></ons-tab>
-    <ons-tab label="Settings" icon="md-settings" page="settings.html"></ons-tab>
-  </ons-tabbar>
+<ons-page>
+  <ons-toolbar>
+    <div class="center">Medieval Kingdom Tycoon</div>
+  </ons-toolbar>
 
-  <!-- JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/onsenui/js/onsenui.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+  <ons-bottom-toolbar>
+    <ons-tabbar>
+      <ons-tab page="kingdom.html" label="Kingdom" icon="md-home"></ons-tab>
+      <ons-tab page="army.html" label="Army" icon="md-accounts"></ons-tab>
+      <ons-tab page="resources.html" label="Resources" icon="md-card-giftcard"></ons-tab>
+      <ons-tab page="settings.html" label="Settings" icon="md-settings"></ons-tab>
+    </ons-tabbar>
+  </ons-bottom-toolbar>
+</ons-page>
