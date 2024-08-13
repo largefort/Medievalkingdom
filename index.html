@@ -1,14 +1,31 @@
-<ons-page>
-  <ons-toolbar>
-    <div class="center">Medieval Kingdom Tycoon</div>
-  </ons-toolbar>
-
-  <ons-bottom-toolbar>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medieval Kingdom Tycoon</title>
+  
+  <!-- Onsen UI CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  
+  <!-- Custom CSS compiled from SCSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Onsen UI JS -->
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+</head>
+<body>
+  <ons-page>
     <ons-tabbar>
-      <ons-tab page="kingdom.html" label="Kingdom" icon="md-home"></ons-tab>
+      <ons-tab page="kingdom.html" label="Kingdom" icon="md-home" active></ons-tab>
       <ons-tab page="army.html" label="Army" icon="md-accounts"></ons-tab>
       <ons-tab page="resources.html" label="Resources" icon="md-card-giftcard"></ons-tab>
       <ons-tab page="settings.html" label="Settings" icon="md-settings"></ons-tab>
     </ons-tabbar>
-  </ons-bottom-toolbar>
-</ons-page>
+  </ons-page>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
